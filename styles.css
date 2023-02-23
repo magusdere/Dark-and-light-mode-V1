@@ -1,0 +1,16 @@
+.bg-primaryDark {
+    background-color: rgb(24, 46, 93) !important;
+}
+
+.arrowAnimation {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      padding-top: 20%;
+    }
+  }
